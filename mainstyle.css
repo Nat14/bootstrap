@@ -1,0 +1,93 @@
+header {
+  width: 100%;
+  height: 80px;
+  background: gray;
+  margin-bottom: 40px;
+}
+
+/*div {
+  border: 1px solid red;
+}*/
+
+.jumbotv {
+  padding-bottom: 10%;
+  padding-top: 10%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.circle-top {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  border-radius: 100%;
+  /*margin-left: 30%;*/
+}
+
+.circle-bottom {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  border-radius: 100%;
+  margin-left: auto;
+}
+
+.main-content {
+  background-color: gray;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.language-row {
+  /*min-height: 300px;*/
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.language {
+  height: 100%;
+  background-color: gray;
+
+}
+
+.inner-language {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border-radius: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.language-name {
+  font-size: 50pt;
+}
+
+.inner-language:hover {
+  background-color: lightblue;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
