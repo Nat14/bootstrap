@@ -8,14 +8,23 @@ header {
 /*div {
   border: 1px solid red;
 }*/
+.jumbotron {
+  background: #005C97; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #005C97 , #363795); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #005C97 , #363795); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 .jumbotv {
   padding-bottom: 10%;
   padding-top: 10%;
   height: 100%;
-  background-color: white;
   text-align: center;
   border-radius: 15px;
+  background: #00C9FF; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #00C9FF , #92FE9D); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #00C9FF , #92FE9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .circle-top {
@@ -35,9 +44,12 @@ header {
 }
 
 .main-content {
-  background-color: gray;
   padding-top: 30px;
   padding-bottom: 50px;
+  background: #fc00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fc00ff , #00dbde); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fc00ff , #00dbde); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 h2 {
@@ -52,7 +64,6 @@ h2 {
 
 .language {
   height: 100%;
-  background-color: gray;
 
 }
 
